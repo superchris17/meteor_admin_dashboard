@@ -1,0 +1,9 @@
+<template name="treeView">
+	<div class="sortable source list-group" id="types">
+		{{#sortable items=types options=typesOptions}}
+			<div class="list-group-item well well-sm">
+				{{{icon}}} {{name}}
+			</div>
+		{{/sortable}}
+	</div>
+</template>
