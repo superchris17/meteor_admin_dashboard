@@ -1,1 +1,1 @@
-Sortable.collections = [ 'types' ]
+Sortable.collections = [ 'components' ]

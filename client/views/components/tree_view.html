@@ -1,8 +1,8 @@
 <template name="treeView">
-	<div class="sortable source list-group" id="types">
-		{{#sortable items=types options=typesOptions}}
-			<div class="list-group-item well well-sm">
-				{{{icon}}} {{name}}
+	<div class="sortable source list-group">
+		{{#sortable items=components options=typesOptions}}
+			<div class="list-group-item well well-sm {{class}}">
+				{{category}}
 			</div>
 		{{/sortable}}
 	</div>
